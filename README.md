@@ -1,4 +1,7 @@
 # basic-release
+
+[![Join the chat at https://gitter.im/wutongchain/Lobby](https://badges.gitter.im/wutongchain/Lobby.svg)](https://gitter.im/wutongchain/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # 梧桐链基础版的发布地址
 
 ## 快速入门
