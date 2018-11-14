@@ -44,4 +44,4 @@ See the License for the specific language governing permissions and limitations 
 
 &nbsp;
 
-关于梧桐链交流：  [![Join the chat at https://gitter.im/tjfoc/wutongchain](https://badges.gitter.im/tjfoc/wutongchain.svg)]()
+关于梧桐链交流：  [![Join the chat at https://gitter.im/tjfoc/wutongchain](https://badges.gitter.im/tjfoc/wutongchain.svg)](https://gitter.im/wutongchain/Lobby)
