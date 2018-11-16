@@ -2,7 +2,7 @@ wutongchain
 
 梧桐链基础版
 
-版权所有 苏州同济区块链研究院有限公司(http://www.tj-fintech.com)
+版权所有 苏州同济区块链研究院有限公司(www.wutongchain.com)
 
 Copyright Suzhou Tongji Fintech Research Institute 2018 All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,4 +44,4 @@ See the License for the specific language governing permissions and limitations 
 
 &nbsp;
 
-关于梧桐链交流：  [![Join the chat at https://gitter.im/wutongchain1/Lobby](https://badges.gitter.im/tjfoc/wutongchain1.svg)](https://gitter.im/wutongchain1/Lobby)
+关于梧桐链交流： [![Join the chat at https://gitter.im/tjfoc/wutongchain](https://badges.gitter.im/tjfoc/wutongchain.svg)](https://gitter.im/tjfoc/wutongchain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge "Join the chat")
