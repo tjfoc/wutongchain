@@ -30,7 +30,7 @@ See the License for the specific language governing permissions and limitations 
 
        + [API文档](./docAPI文档.pdf "API文档")
        
-       + [智能合约API文档](./doc/智能合约API文档.pdf "智能合约API文档")
+       + [智能合约API文档](./sample/chaincode/doc/README.MD "智能合约API文档")
 
        + [CA服务器部署说明](./doc/CA服务器部署说明.pdf "CA服务器部署说明")
        
