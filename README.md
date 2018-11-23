@@ -35,11 +35,13 @@ See the License for the specific language governing permissions and limitations 
        + [SDK部署说明](./SDK部署说明.pdf "SDK部署说明")
 
        + [API文档](./API文档.pdf "API文档")
+       
+       + [智能合约API文档](./智能合约API文档.pdf "智能合约API文档")
 
        + [区块链浏览器部署说明](./区块链浏览器部署说明.pdf "区块链浏览器部署说明")
 
        + [CA服务器部署说明](./CA服务器部署说明.pdf "CA服务器部署说明")
-       
+
 
 
 &nbsp;
