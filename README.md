@@ -1,10 +1,10 @@
 wutongchain
 
-梧桐链基础版
+苏州同济区块链研究院 - 梧桐链基础版
 
 版权所有 苏州同济区块链研究院有限公司(www.wutongchain.com)
 
-Copyright Suzhou Tongji Fintech Research Institute 2018 All Rights Reserved.
+Copyright Suzhou Tongji Blockchain Research Institute 2018 All Rights Reserved.
 Licensed under the Apache License, Version 2.0 (the "License");
 
 you may not use this file except in compliance with the License.
@@ -20,28 +20,20 @@ See the License for the specific language governing permissions and limitations 
 
 &nbsp;
 
-梧桐链基础版相关文档
-
-   * 快速入门
-
-       + [一键安装](./一键安装.pdf "一键安装")
-
-       + [代码样例](./代码样例.pdf "代码样例")
+相关文档
 
    * 用户指南
 
-       + [节点部署说明](./节点部署说明.pdf "节点部署说明")
+       + [节点部署说明](./doc/节点部署说明.pdf "节点部署说明")
 
-       + [SDK部署说明](./SDK部署说明.pdf "SDK部署说明")
+       + [SDK部署说明](./doc/SDK部署说明.pdf "SDK部署说明")
 
-       + [API文档](./API文档.pdf "API文档")
+       + [API文档](./docAPI文档.pdf "API文档")
        
-       + [智能合约API文档](./智能合约API文档.pdf "智能合约API文档")
+       + [智能合约API文档](./doc/智能合约API文档.pdf "智能合约API文档")
 
-       + [区块链浏览器部署说明](./区块链浏览器部署说明.pdf "区块链浏览器部署说明")
-
-       + [CA服务器部署说明](./CA服务器部署说明.pdf "CA服务器部署说明")
-
+       + [CA服务器部署说明](./doc/CA服务器部署说明.pdf "CA服务器部署说明")
+       
 
 
 &nbsp;

@@ -1,0 +1,39 @@
+Log:
+    Level: "Info"
+    LogFile: "log.log"
+    RaftLevel: "Debug"
+    DockerLevel: "Error"
+Rpc:
+    Port: 9876
+    Timeout: 50
+    UseTLS: false
+    TLSCaPath: "./crypt/ca.pem"
+    TLSKeyPath: "./crypt/key.pem"
+    TLSCertPath: "./crypt/cert.pem"
+    TLSServerName: "test.example.com"
+Node:
+    NodeCertPath: "./cert/nodeCert.pem"
+    Admin: "5U8r2mWJF1STKHAFEPMn4WiQgXrYa4XuhHwrm2x1ax7xSjBzPbjT2NuJbVcnXSt2ohkvqJ7Y5jUmXxKMoHBLVg34"
+StorePath:
+    Path: "peer.db"
+Crypt:
+    KeyTyp: "sm2"
+    HashTyp: "sm3"
+    KeyPath: "./crypt/key.pem"
+Docker:
+    Ip: "0.0.0.0"
+    Port: "7051"
+    Endpoint: unix:///var/run/docker.sock
+    BaseImageVersion: "1.0.1"
+    Enable: false
+BlockChain:
+     PackTime: 1000
+P2P:
+    Cycle: 4000
+CA: 
+    UseOnlineCA: false 
+    CAAddress: "your ip:9092" 
+
+
+
+                
