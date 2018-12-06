@@ -1,0 +1,17 @@
+Self:
+    Id: "1"
+    ShownName: "peer1"
+    Addr: "127.0.0.1:60000"
+
+Members:
+    Peers:
+        - Id: "1"
+          ShownName: "peer1"
+          InAddr: "127.0.0.1:60000"
+          OutAddr: "127.0.0.1:60000"
+
+        - Id: "2"
+          ShownName: "peer2"
+          InAddr: "127.0.0.1:60001"
+          OutAddr: "127.0.0.1:60001"
+        

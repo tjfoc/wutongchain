@@ -1,0 +1,4 @@
+FROM tatsushid/tinycore:latest
+
+COPY ./peer /root/
+RUN `mkdir /root/conf && mkdir /root/logs && sudo chmod ugo+x /root/peer`

@@ -1,20 +1,17 @@
 Self:
     Id: "1"
-    ShowName: "peer1"
-    Typ: 0
-    Addr: "your ip1:60000"
+    ShownName: "peer1"
+    Addr: "your ip:60000"
 
 Members:
     Peers:
         - Id: "1"
-          ShowName: "peer1"
-          Typ: 0
-          InAddr: "your ip1:60000"
-          OutAddr: "your ip1:60000"
+          ShownName: "peer1"
+          InAddr: "your ip:60000"
+          OutAddr: "your ip:60000"
 
         - Id: "2"
-          ShowName: "peer2"
-          Typ: 0
+          ShownName: "peer2"
           InAddr: "your ip2:60000"
           OutAddr: "your ip2:60000"
         

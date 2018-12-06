@@ -1,35 +1,33 @@
-port = 8888
+Port = 8888
 
-[[peer]]
-address = "your ip1:9876"
-usetls = false
+[[Peer]]
+Address = "your ip:9876"
+TLSEnabled = false
 
-[[peer]]
-address = "your ip2:9876"
-usetls = false
+[[Peer]]
+Address = "your ip2:9876"
+TLSEnabled = false
 
-[rpc]
-  TLSCaPath = "./crypt/ca.pem"
-  TLSCertPath = "./crypt/cert.pem"
-  TLSKeyPath = "./crypt/key.pem"
+[Rpc]
+  TLSCaPath = "./tls/ca.pem"
+  TLSCertPath = "./tls/cert.pem"
+  TLSKeyPath = "./tls/key.pem"
   TLSServerName = "test.example.com"
-  HashTyp = "sm3" # hash 算法, 支持 sm3, sha256
-  KeyTyp = "sm2" # 加密算法，支持 sm2,ecc
+  HashType = "sm3" # hash 算法, 支持 sm3, sha256
+  KeyType = "sm2" # 加密算法，支持 sm2,ecc
   Timeout = "30s"
 
-  [wallet]
-  Enable = true
-  Provider = "boltdb"    # 底层存储提供程序
-  DBPath= "./wallet.db"  # 钱包数据库路径
-  DupDuration= "3s"     # 重复数据检测时间范围, 重复数据检查策略为ByTime时有效
+  [Wallet]
+  Enabled = true
+  #DupDuration= "3s"     # 重复数据检测时间范围, 重复数据检查策略为ByTime时有效
   TxTimeout= "10m"      # 交易上链超时时长
   SyncInterval= "1s"
 
 # 监控服务端口
-[monitor]
-port = 9090
+[Monitor]
+Port = 9090
 
 #智能合约
-[smartcontract]
+[Smartcontract]
   # 合约类型，支持docker,fate
   category = "docker"

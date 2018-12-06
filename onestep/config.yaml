@@ -1,0 +1,37 @@
+version: "3"
+services:
+    peer1:
+        image: peer-image:latest
+        container_name: peer-container-1
+        working_dir: /root
+        network_mode: host
+        command: ./peer
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./peer/Peer1/logs:/root/logs
+            - ./peer/Peer1/base.yaml:/root/conf/base.yaml
+            - ./peer/Peer1/config.yaml:/root/config.yaml
+            - ./peer/Peer1/crypt:/root/crypt
+            - ./peer/Peer1/tls:/root/tls
+    peer2:
+        image: peer-image:latest
+        container_name: peer-container-2
+        working_dir: /root
+        network_mode: host
+        command: ./peer
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./peer/Peer2/logs:/root/logs
+            - ./peer/Peer2/base.yaml:/root/conf/base.yaml
+            - ./peer/Peer2/config.yaml:/root/config.yaml
+            - ./peer/Peer2/crypt:/root/crypt
+            - ./peer/Peer2/tls:/root/tls
+    sdk:
+        image: sdk-image:latest
+        container_name: sdk-container-1
+        working_dir: /root
+        network_mode: host
+        command: ./sdk
+        volumes:
+            - ./sdk/config.toml:/root/conf/config.toml
+            - ./sdk/tls:/root/tls

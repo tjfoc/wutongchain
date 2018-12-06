@@ -1,0 +1,4 @@
+FROM tatsushid/tinycore:latest
+
+COPY ./sdk /root/
+RUN `mkdir /root/conf && sudo chmod ugo+x /root/sdk`

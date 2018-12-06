@@ -1,0 +1,34 @@
+Log:
+    Level: "Info"
+    LogDir: "logs"
+    LogFile: "log.log"
+    RaftLevel: "Info"
+    DockerLevel: "Error"
+Rpc:
+    Port: 9877
+    Timeout: 50
+    TLSEnabled: false
+    TLSCaPath: "./tls/ca.pem"
+    TLSKeyPath: "./tls/key.pem"
+    TLSCertPath: "./tls/cert.pem"
+    TLSServerName: "test.example.com"
+Node:
+    NodeCertPath: ""
+StorePath:
+    Path: "peer.db"
+Crypt:
+    KeyType: "sm2"
+    HashType: "sm3"
+    KeyPath: "./crypt/key.pem"
+Docker:
+    Ip: "0.0.0.0"
+    Port: "7052"
+    Endpoint: unix:///var/run/docker.sock
+    BaseImageVersion: "1.0.1"
+    Enabled: true
+CA: 
+    OnlineCAEnabled: false 
+    CAAddress: "" 
+
+
+                

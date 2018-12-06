@@ -1,0 +1,33 @@
+Port = 8888
+
+[[Peer]]
+Address = "127.0.0.1:9876"
+TLSEnabled = false
+
+[[Peer]]
+Address = "127.0.0.1:9877"
+TLSEnabled = false
+
+[Rpc]
+  TLSCaPath = "./tls/ca.pem"
+  TLSCertPath = "./tls/cert.pem"
+  TLSKeyPath = "./tls/key.pem"
+  TLSServerName = "test.example.com"
+  HashType = "sm3" # hash 算法, 支持 sm3, sha256
+  KeyType = "sm2" # 加密算法，支持 sm2,ecc
+  Timeout = "30s"
+
+  [Wallet]
+  Enabled = true
+  #DupDuration= "3s"     # 重复数据检测时间范围, 重复数据检查策略为ByTime时有效
+  TxTimeout= "10m"      # 交易上链超时时长
+  SyncInterval= "1s"
+
+# 监控服务端口
+[Monitor]
+Port = 9090
+
+#智能合约
+[Smartcontract]
+  # 合约类型，支持docker,fate
+  category = "docker"
