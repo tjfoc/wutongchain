@@ -28,7 +28,7 @@ See the License for the specific language governing permissions and limitations 
 
        + [SDK部署说明](./doc/SDK部署说明.pdf "SDK部署说明")
 
-       + [API文档](./docAPI文档.pdf "API文档")
+       + [API文档](./doc/API文档1.0.0.pdf "API文档")
        
        + [智能合约API文档](./sample/chaincode/doc/README.MD "智能合约API文档")
 
