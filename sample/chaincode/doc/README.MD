@@ -157,7 +157,7 @@ http://sdk ip/contract/install
 {
     "Name": "合约名",
     "Version": "合约版本号",
-    "File": base64(‘合约代码文件内容’)
+    "File": "base64('合约代码文件内容')"
 }
 ```
 发送成功之后将会收到：
