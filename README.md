@@ -38,5 +38,6 @@ See the License for the specific language governing permissions and limitations 
 
 &nbsp;
 
-关于梧桐链交流：  [![Join the chat at https://gitter.im/wutongchain1/Lobby](https://badges.gitter.im/tjfoc/wutongchain1.svg)](https://gitter.im/wutongchain1/Lobby)
+* 关于梧桐链交流：  [![Join the chat at https://gitter.im/wutongchain1/Lobby](https://badges.gitter.im/tjfoc/wutongchain1.svg)](https://gitter.im/wutongchain1/Lobby)
 
+* 注：基础版只可支持3个节点，性能TPS也是受限的。
