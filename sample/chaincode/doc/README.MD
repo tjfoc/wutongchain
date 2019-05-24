@@ -2,17 +2,17 @@
 
 ## 目录
 ### [梧桐链智能合约开发--shim.ChaincodeStubInterface用法](#梧桐链智能合约开发--shim.ChaincodeStubInterface用法)
-* [开发介绍](#1.开发介绍)
-* [智能合约模板](#2.智能合约模板)
-* [shim.ChaincodeStubInterface接口详解](#3.shim.ChaincodeStubInterface接口详解)
-    * [获得调用的参数](#3.1获得调用的参数)
-    * [对worldstate数据进行增删改查](#3.2对worldstate数据进行增删改查)
-    * [合约调合约](#3.3合约调合约)
+* [开发介绍](#1开发介绍)
+* [智能合约模板](#2智能合约模板)
+* [shim.ChaincodeStubInterface接口详解](#3shim.ChaincodeStubInterface接口详解)
+    * [获得调用的参数](#31获得调用的参数)
+    * [对worldstate数据进行增删改查](#32对worldstate数据进行增删改查)
+    * [合约调合约](#33合约调合约)
 ### [梧桐链智能合约使用--通过sdk使合约生效](#梧桐链智能合约使用--通过sdk使合约生效)
-* [使用介绍](#1.使用介绍)
-* [合约安装](#2.合约安装)
-* [合约调用](#3.合约调用)
-* [合约销毁](#4.合约销毁)
+* [使用介绍](#1使用介绍)
+* [合约安装](#2合约安装)
+* [合约调用](#3合约调用)
+* [合约销毁](#4合约销毁)
 
 ## 梧桐链智能合约开发--shim.ChaincodeStubInterface用法
 
