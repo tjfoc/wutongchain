@@ -24,6 +24,8 @@ See the License for the specific language governing permissions and limitations 
 
    * 用户指南
 
+       + [CA服务器部署说明](./doc/CA服务器部署说明.pdf "CA服务器部署说明")
+	   
        + [节点部署说明](./doc/节点部署说明.pdf "节点部署说明")
 
        + [SDK部署说明](./doc/SDK部署说明.pdf "SDK部署说明")
@@ -32,10 +34,7 @@ See the License for the specific language governing permissions and limitations 
        
        + [智能合约API文档](./sample/chaincode/doc/README.MD "智能合约API文档")
 
-       + [CA服务器部署说明](./doc/CA服务器部署说明.pdf "CA服务器部署说明")
        
-
-
 &nbsp;
 
 * 关于梧桐链交流：  [![Join the chat at https://gitter.im/wutongchain1/Lobby](https://badges.gitter.im/tjfoc/wutongchain1.svg)](https://gitter.im/wutongchain1/Lobby)
